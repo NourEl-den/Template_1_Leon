@@ -390,7 +390,7 @@ html {
     position: relative;
     width: 250px;
     height: 375px;
-    background-image: url(/images/about.jpeg);
+    background-image: url(../images/about.jpeg);
     background-size: cover;
 }
 @media (max-width: 991px) {

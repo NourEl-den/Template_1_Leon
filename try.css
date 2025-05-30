@@ -1,0 +1,30 @@
+.loading-text {
+    background: linear-gradient( to right ,#00f, #0ff, #00f);
+    background-position: -100%;
+    background-size: 200%;
+    text-align: center;
+    /* background-clip: text;
+    color: transparent; */
+    animation: shimmer 2s linear 1;
+    font-size: 150px;
+}
+
+@keyframes shimmer { to { background-position: 100% } }
+
+.try {
+    font-size: 150px;
+    background: linear-gradient(to right,green 40%, rgba(87, 87, 87, 0.082) 60%, green);
+    background-position: -100%;
+    background-size: 200%;
+    width: 100%;
+    text-align: center;
+    background-clip: text;
+    color: transparent;
+    animation: shine 2.5s linear 2;
+}
+
+@keyframes shine {
+    to {
+        background-position: 100%;
+    }
+}
